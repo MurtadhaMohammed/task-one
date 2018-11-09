@@ -1,0 +1,83 @@
+* { 
+  padding: 0;
+  margin: 0;
+}
+
+#contianer {
+  width: 80%;
+  margin: auto;
+}
+
+#content {
+  display: flex;
+}
+#content #recent_links {
+  flex-grow: 2;
+}
+
+
+#content #most_viewed {
+  flex-grow: 1;
+  flex-basis: 600px;
+ 
+}
+#content #most_viewed .right-box {
+  background-image: url('https://unsplash.it/124/124');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 250px;
+  color: #fff;
+
+}
+#content #most_viewed .right-box small,
+#content #most_viewed .right-box .text {
+ padding: 10px
+}
+.overlay{
+  background: #3333339e;
+  height: 100%;
+  width: 100%;
+}
+#content #most_viewed .right-box .text {
+  margin-top: 147px;
+}
+#content #most_viewed .right-box p {
+ margin-top: 20px;
+ font-family: sans-serif;
+ font-size: 12px;
+ 
+}
+#content #most_viewed .right-box h2 {
+ line-height: 0
+ 
+}
+
+#content #recent_links article {
+  display: flex;
+}
+
+article {
+  margin: 0px 0px 20px 0px;
+}
+
+article div:nth-child(2) {
+  padding: 0px 0px 0px 10px;
+  position: relative;
+}
+article h3 {
+  font-family: 'Playfair Display', serif;
+  text-transform: capitalize;
+}
+
+article p {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+article time {
+  color:#399DF2;
+  font-family: 'Source Sans Pro', sans-serif;
+  position: absolute;
+  bottom: 0px;
+  left: 10px;
+}
